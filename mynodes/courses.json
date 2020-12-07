@@ -1,0 +1,87 @@
+{
+	"courses": [{
+			"course_code": "CUS754",
+			"course_level": "Graduate",
+			"title": "Computer Vision and Applications",
+			"instructor": "Dr. Christoforos Christoforou"
+		},
+		{
+			"course_code": "CUS615",
+			"course_level": "Graduate",
+			"title": "Data Mining and Predictive Modeling II",
+			"instructor": "Dr. Christoforos Christoforou"
+		},
+		{
+			"course_code": "CUS610",
+			"course_level": "Graduate",
+			"title": "Data Mining and Predictive Modeling I",
+			"instructor": "Dr. Christina Schweikert"
+		},
+		{
+			"course_code": "CUS763",
+			"course_level": "Graduate",
+			"title": "Artificial Intelligence and Deep Neural Network",
+			"instructor": "Dr. Christoforos Christoforou"
+		},
+		{
+			"course_code": "CUS764",
+			"course_level": "Graduate",
+			"title": "Brain Computer Interfaces, Neuro-informatics and Scientific Computing",
+			"instructor": "Dr. Christoforos Christoforou"
+		},
+		{
+			"course_code": "CUS750",
+			"course_level": "Graduate",
+			"title": "Robotics",
+			"instructor": "Dr. Christoforos Christoforou"
+		},
+		{
+			"course_code": "CUS725",
+			"course_level": "Graduate",
+			"title": "Advanced Database Management Systems",
+			"instructor": "Dr. Bonnie MacKellar"
+		},
+		{
+			"course_code": "CUS1166",
+			"course_level": "Undergrad",
+			"title": "Software Engineering",
+			"instructor": "Dr. Christoforos Christoforou"
+		},
+		{
+			"course_code": "CUS1166",
+			"course_level": "Undergrad",
+			"title": "Software Engineering",
+			"instructor": "Dr. Puya Ghazizadeh"
+		},
+		{
+			"course_code": "CUS1166",
+			"course_level": "Undergrad",
+			"title": "Software Engineering",
+			"instructor": "Dr. Puya Ghazizadeh"
+		},
+		{
+			"course_code": "CUS1166",
+			"course_level": "Undergrad",
+			"title": "Software Engineering",
+			"instructor": "Dr. Yadav Nikhil"
+		},
+		{
+			"course_code": "CUS1156",
+			"course_level": "Undergrad",
+			"title": "Software Design Methods",
+			"instructor": "Dr. Puya Ghazizadeh"
+		},
+		{
+			"course_code": "CUS1163",
+			"course_level": "Undergrad",
+			"title": "Operating Systems",
+			"instructor": "Dr. Christina Scheikert"
+		},
+		{
+			"course_code": "CUS1172",
+			"course_level": "Undergrad",
+			"title": "Web Application Development",
+			"instructor": "Dr. Christoforos Christoforou"
+		}
+	]
+}

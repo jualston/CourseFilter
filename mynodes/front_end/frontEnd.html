@@ -1,0 +1,80 @@
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+<script src= "final.js"></script>
+<link rel="stylesheet" type ="text/css" href="sub.css">
+
+</head>
+
+<body class = "container">
+  <div class ="container text-center">
+    <div class = "row">
+      <div class ="col-sm-6">
+
+
+  <form onsubmit="return false;"  id= "queryForm">
+    <label for ="nameQuery">Search by name:</label> <br>
+    <input type = "text" id ="nameQuery" value=""> <br>
+    <input id = "queryByName" class ="button" type ="button" onclick="updateView(this) " value ="Query" data-querytype= "by_name">
+  </form>
+
+  <form onsubmit="return false;"  id= "queryForm">
+    <label for ="queryByTitle">Search by Course Title:</label> <br>
+    <input type = "text" id ="queryByTitle" value=""> <br>
+    <input id = "queryByTitle" class ="button" type ="button" onclick="updateView(this) " value ="Query" data-querytype= "by_title">
+  </form>
+
+  <form onsubmit="return false;"  id= "queryForm">
+    <label for ="queryByCode">Search by Course Code:</label> <br>
+    <input type = "text" id ="queryByCode" value=""> <br>
+    <input id = "queryByCode" class ="button" type ="button" onclick="updateView(this) " value ="Query" data-querytype= "by_course_code">
+  </form>
+
+  <form onsubmit="return false;"  id= "queryForm">
+    <label for ="queryByLevel">Search by Course Level:</label> <br>
+    <input type = "text" id ="queryByLevel" value=""> <br>
+    <input id = "queryBylevel" class ="button" type ="button" onclick="updateView(this) " value ="Query" data-querytype= "by_level">
+  </form>
+  <form onsubmit="return false;"  id= "queryForm">
+    <label for ="queryByCombo">Search by Course Level:</label> <br>
+    <input type = "text" id ="queryByCombo" value=""> <br>
+    <label for ="undergraduate">Undergrad</label>
+  <input type="radio" id="ugraduate" dataset-querytype="ugrad" name="l" value="Undergrad">
+<label for ="graduate">Graduate</label>
+    <input type="radio" id="graduate"  value="Graduate" name ="l">
+    <input id = "queryByCombo" class ="button" type ="button" onclick="updateView(this) " value ="Query" data-querytype= "by_combo">
+  </form>
+</div>
+<div class= "col-sm-6">
+
+    <div id="results">
+    </div>
+  </div>
+</div>
+</div>
+    </body>
+    </html>
+
+
+
+    <script id = "show_results" type = "text/x-handlebars-template">
+      <table class ="table">
+        <tr>
+          <th> Course Code</th>
+            <th> Level </th>
+              <th> Course Name </th>
+              <th>Instructor</th>
+            </tr>
+            {{#each sju}}
+            <tr>
+              <td>{{this.course_code}}</td>
+              <td> {{this.course_level}}</td>
+              <td> {{this.title}}</td>
+              <td> {{this.instructor}}</td>
+            </tr>
+            {{/each}}
+            </table>
+</script>
