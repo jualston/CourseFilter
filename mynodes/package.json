@@ -1,7 +1,6 @@
 {
   "name": "uis-ju",
   "version": "1.0.0",
-  "description": "",
   "main": "restAPI.js",
   "dependencies": {
     "express": "^4.17.1",
@@ -9,8 +8,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node restAPI.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jualston/WebFinal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jualston/WebFinal/issues"
+  },
+  "homepage": "https://github.com/jualston/WebFinal#readme",
+  "description": ""
 }
