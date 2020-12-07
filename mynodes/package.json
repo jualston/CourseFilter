@@ -1,7 +1,7 @@
 {
   "name": "uis-ju",
   "version": "1.0.0",
-  "main": "restAPI.js",
+  "main": "restapi.js",
   "dependencies": {
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node restAPI.js",
+    "start": "node restapi.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
