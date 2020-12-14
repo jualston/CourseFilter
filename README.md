@@ -53,3 +53,10 @@ Deployment Requirements
 
 
 3.    The source code of your both applications must be hosted in a private repository on GitHub, and add your instructor as a collaborator in order to review your code.
+
+
+
+
+Link to Heroku/Netlify:
+
+https://uis-ju.herokuapp.com/api/
