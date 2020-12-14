@@ -60,3 +60,9 @@ Deployment Requirements
 Link to Heroku/Netlify:
 
 https://uis-ju.herokuapp.com/api/
+https://wonderful-joliot-465b42.netlify.app/mynodes/front_end/frontend
+
+
+
+
+TO NOTE: Netlify and heroku currently having complications accessing the query data. Meaning, when queried on netlify, the data from heroku api does not send data to display.
